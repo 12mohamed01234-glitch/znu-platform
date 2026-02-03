@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fix layout issues */
+/* Global fixes */
 html, body {
   width: 100%;
   margin: 0;
