@@ -692,26 +692,18 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 };
 
 const App: React.FC = () => {
-  return (
-    <AppProvider>
-      <HashRouter>
-        <div className="min-h-screen selection:bg-brand-green selection:text-white">
-          <Routes>
-            <Route path="/" element={<Layout><Home /></Layout>} />
-            <Route path="/faculties" element={<Layout><FacultiesList /></Layout>} />
-            <Route path="/library" element={<Layout><DigitalLibrary /></Layout>} />
-            <Route path="/staff" element={<Layout><StaffDirectory /></Layout>} />
-            <Route path="/exams" element={<Layout><ExamPortal /></Layout>} />
-            <Route path="/results" element={<Layout><ResultsPortal /></Layout>} />
-            <Route path="/complaints" element={<Layout><ComplaintsCenter /></Layout>} />
-            <Route path="/login" element={<Layout><Login /></Layout>} />
-            <Route path="/dashboard" element={<Layout><div className="p-20 text-center font-black uppercase text-2xl">لوحة تحكم المستخدم - قيد التطوير</div></Layout>} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-        </div>
-      </HashRouter>
-    </AppProvider>
-  );
-};
+ return (
+  <div
+    style={{
+      padding: "40px",
+      fontSize: "32px",
+      background: "#f5f5f5",
+      color: "#000",
+    }}
+  >
+    ZNU Platform شغال ✅
+  </div>
+);
+
 
 export default App;
