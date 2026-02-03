@@ -1,0 +1,8 @@
+{
+  "name": "ZNU Digital Platform",
+  "description": "A comprehensive university-level digital platform for Zagazig National University, featuring multi-faculty management, course administration, and role-based dashboards.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
