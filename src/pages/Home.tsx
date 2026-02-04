@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"; // 👈 ده الجديد
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
           <button>استكشف الكليات</button>
         </div>
       </div>
+
+      <Footer /> {/* 👈 ده الجديد */}
     </>
   );
 };
