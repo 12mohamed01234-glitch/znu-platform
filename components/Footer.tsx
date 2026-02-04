@@ -1,6 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="text-center py-4 bg-gray-100 mt-10">
+    <footer style={{
+      textAlign: "center",
+      padding: "20px",
+      background: "#1f7a4a",
+      color: "white",
+      marginTop: "40px"
+    }}>
       © 2026 Zagazig National University
     </footer>
   );
