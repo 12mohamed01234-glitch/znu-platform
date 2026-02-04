@@ -1,21 +1,24 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 const Home = () => {
   return (
-    <div className="w-full">
-      <section className="bg-gradient-to-r from-slate-300 to-slate-500 rounded-3xl p-10 text-right text-white">
+    <>
+      <Navbar />
+      <div className="min-h-screen flex flex-col items-center justify-center text-center bg-green-50">
+        <h2 className="text-green-700 text-xl mb-2">مرحباً بكم في</h2>
         <h1 className="text-4xl font-bold mb-4">
-          مرحباً بكم في <br />
-          <span className="text-green-400">Zagazig National University</span>
+          Zagazig National University
         </h1>
-
-        <p className="mb-6 text-lg">
-          بوابتكم الرقمية المتكاملة للخدمات الأكاديمية والبحثية والطلابية
+        <p className="mb-6">
+          بوابتكم الرقمية المتكاملة للخدمات الأكاديمية والطلابية
         </p>
-
-        <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl">
+        <button className="bg-green-700 text-white px-6 py-2 rounded">
           استكشف الكليات
         </button>
-      </section>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 
