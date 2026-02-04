@@ -1,13 +1,8 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
-import Home from "./src/pages/Home";
-
 const App = () => {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </HashRouter>
+    <h1 style={{ color: "red", fontSize: "50px" }}>
+      APP IS WORKING
+    </h1>
   );
 };
 
