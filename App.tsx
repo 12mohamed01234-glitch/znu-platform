@@ -1,9 +1,20 @@
-const App = () => {
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Faculties from "./pages/Faculties";
+import Library from "./pages/Library";
+import Login from "./pages/Login";
+
+function App() {
   return (
-    <h1 style={{ color: "red", fontSize: "50px" }}>
-      APP IS WORKING
-    </h1>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/faculties" element={<Faculties />} />
+        <Route path="/library" element={<Library />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </HashRouter>
   );
-};
+}
 
 export default App;
