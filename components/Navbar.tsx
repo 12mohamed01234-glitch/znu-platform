@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav>
       <div className="links">
-        <a href="#/">الرئيسية</a>
-        <a href="#/faculties">الكليات</a>
-        <a href="#/library">المكتبة</a>
-        <a href="#/login">دخول</a>
+        <Link to="/">الرئيسية</Link>
+        <Link to="/faculties">الكليات</Link>
+        <Link to="/library">المكتبة</Link>
+        <Link to="/login">دخول</Link>
       </div>
-      <h2>ZNU Platform</h2>
+      <div>ZNU Platform</div>
     </nav>
   );
 };
