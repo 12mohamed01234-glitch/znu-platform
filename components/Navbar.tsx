@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
     <nav>
+      <div className="logo">ZNU Platform</div>
+
       <div className="links">
-        <a href="#">الرئيسية</a>
-        <a href="#">الكليات</a>
-        <a href="#">المكتبة</a>
-        <a href="#">دخول</a>
+        <a href="#/">الرئيسية</a>
+        <a href="#/colleges">الكليات</a>
+        <a href="#/login">دخول</a>
       </div>
-      <div><strong>ZNU Platform</strong></div>
     </nav>
   );
 };
