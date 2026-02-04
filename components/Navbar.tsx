@@ -1,17 +1,14 @@
-import { Link } from "react-router-dom";
-
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
+      <div className="logo">ZNU Platform</div>
       <div className="links">
-        <Link to="/">الرئيسية</Link>
-        <a href="#">الكليات</a>
-        <a href="#">المكتبة</a>
-        <a href="#">دخول</a>
+        <a href="#/">الرئيسية</a>
+        <a href="#/">الكليات</a>
+        <a href="#/">المكتبة</a>
+        <a href="#/">دخول</a>
       </div>
-      <div>ZNU Platform</div>
     </nav>
   );
-};
+}
 
-export default Navbar;
