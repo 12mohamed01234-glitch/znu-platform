@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global fixes */
 html, body {
-  width: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
   overflow-x: hidden;
 }
