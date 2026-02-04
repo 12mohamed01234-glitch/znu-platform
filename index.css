@@ -1,10 +1,53 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html, body {
+body {
   margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background: #f6fff8;
+  direction: rtl;
+}
+
+nav {
+  background: #1f7a4a;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  background: #1f7a4a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  margin-top: 40px;
 }
