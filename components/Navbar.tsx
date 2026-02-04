@@ -5,9 +5,9 @@ const Navbar = () => {
     <nav>
       <div className="links">
         <Link to="/">الرئيسية</Link>
-        <Link to="/faculties">الكليات</Link>
-        <Link to="/library">المكتبة</Link>
-        <Link to="/login">دخول</Link>
+        <a href="#">الكليات</a>
+        <a href="#">المكتبة</a>
+        <a href="#">دخول</a>
       </div>
       <div>ZNU Platform</div>
     </nav>
